@@ -1,29 +1,31 @@
-DessertClicker - Starter Code
-==============================
+AndroidTriviaNavigation - solution code
+=======================================
 
-Starter code for Android Kotlin Fundamentals Codelab 4.1 Lifecycles and logging.
+This app is the solution code for Android Kotlin Fundamentals codelab 3.2:
+Define navigation paths. The app is also the starter code for Android Kotlin
+Fundamentals codelab 3.3: Invoke an external activity.
 
 Introduction
 ------------
 
-DessertClicker is a game about making desserts. Press the button, make a dessert,
-earn the big bucks.
+The AndroidTrivia app asks the user trivia questions about Android development.
+It makes use of the navigation component within Jetpack to move the user between
+screens. Each screen is implemented as a fragment.
 
-You use this app in the course to explore the Android lifecycle and log messages to
-the Android console (Logcat).
+The app navigates using buttons, the app bar, and a navigation drawer. Because
+students haven't yet learned about saving data or the Android lifecycle, the app
+tries to eliminate bugs caused by configuration changes.
 
-Pre-requisites
---------------
+Prerequisites
+-------------
 
 You need to know:
+- The fundamentals of Kotlin.
+- How to create basic Android apps in Kotlin.
 - How to open, build, and run apps with Android Studio.
-- What an activity is, and how to create one in your app.
-- What the activity's onCreate() method does, and the kind of operations
-  that are performed in that method.
-- How to create layouts in your activity, and how to update a layout in runtime.
+- How to work with layouts.
 
-
-Getting Started
+Getting started
 ---------------
 
 1. Download and run the app.
